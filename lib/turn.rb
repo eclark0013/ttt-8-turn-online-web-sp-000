@@ -34,7 +34,7 @@ def good_number(index)
   index.between?(0, 8)
 end
 
-def move(board,index,character)
+def move(board,index,character = "X")
   board[index]="#{character}"
   board
 end
