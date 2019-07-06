@@ -38,3 +38,8 @@ def move(board,index,character)
   board[index]="#{character}"
   board
 end
+
+def input_to_index(input)
+  input = input.to_i
+  input-1
+end
